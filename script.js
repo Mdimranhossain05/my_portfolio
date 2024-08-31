@@ -35,9 +35,9 @@ icon.onclick = () => {
 }
 
 //skill section with dom
-const skilsArr = ["HTML", "CSS", "Bootsrat", "Tailwind CSS", "Javascript", "React", "Responsive Design"];
-const skillsIcons = ["<i class='bx bxl-html5'></i>", "<i class='bx bxl-css3' ></i>", "<i class='bx bxl-bootstrap' ></i>", "<i class='bx bxl-tailwind-css' ></i>", "<i class='bx bxl-javascript' ></i>", "<i class='bx bxl-react' ></i>", "<i class='bx bx-devices' ></i>"];
-const skillsColors = ["Tomato", "DodgerBlue", "SlateBlue", "rgb(15, 184, 240);", "rgb(228, 175, 0)", "rgb(15, 184, 240)" ,"Violet" ];
+const skilsArr = ["HTML", "CSS", "Bootsrat", "Tailwind CSS", "Javascript", "React", "Responsive Design", "Github", "Flutter"];
+const skillsIcons = ["<i class='bx bxl-html5'></i>", "<i class='bx bxl-css3' ></i>", "<i class='bx bxl-bootstrap' ></i>", "<i class='bx bxl-tailwind-css' ></i>", "<i class='bx bxl-javascript' ></i>", "<i class='bx bxl-react' ></i>", "<i class='bx bx-devices' ></i>", "<i class='bx bxl-github'></i>", "<i class='bx bxl-flutter'></i>"];
+const skillsColors = ["Tomato", "DodgerBlue", "SlateBlue", "rgb(15, 184, 240);", "rgb(228, 175, 0)", "rgb(15, 184, 240)" ,"Violet", "#6cc644", "rgb(15, 184, 240)"];
 
 const skillsDiv = document.querySelector(".skillsContent");
 skilsArr.map((val, index) => {
@@ -47,24 +47,28 @@ skilsArr.map((val, index) => {
 });
 
 //portfolio section with dom
-const portfolioImgs = ["./assets/portfolio1.png", "./assets/portfolio2.png", "./assets/portfolio3.png", "./assets/portfolio4.png", "./assets/portfolio5.png"];
-const portfolioHeadings = ["SEO Company Website", "Travel Company Website", "Education Meeting Website", "Food website", "Restaurant Website"];
+const portfolioImgs = ["./assets/portfolio1.png", "./assets/portfolio2.png", "./assets/portfolio3.png", "./assets/portfolio4.png", "./assets/portfolio5.png", "./assets/flutter1.png", "./assets/flutter2.png"];
+const portfolioHeadings = ["SEO Company Website", "Travel Company Website", "Education Meeting Website", "Food website", "Restaurant Website", "E-Commerce Android App using Flutter", "News Android App using Flutter"];
 const portfolioDetails = ["This is fully responsive SEO Company Website using HTML5, TailwindCSS and a little bit javascript",
     "Fully responsive travel website using HTML, CSS and Javascript",
     "Responsive Education Meeting Website using HTML5, Bootstrap5, CSS3",
     "Fully responsive food website using HTML, CSS and Javascript",
-    "This is a restaurant web app using reactJS and tailwindCSS. Its is fully responsive website."
+    "This is a restaurant web app using reactJS and tailwindCSS. Its is fully responsive website.",
+    "This is an ecommerce app using flutter and firebase database for android.",
+    "This is a simple news app using flutter for android"
 ]
 const portfolioLinks = ['https://mdimranhossain05.github.io/SEO-Company-Website/',
     'https://mdimranhossain05.github.io/travel_website/',
     'https://mdimranhossain05.github.io/education_meeting_website/',
     'https://mdimranhossain05.github.io/food_website/',
-    'https://github.com/Mdimranhossain05/React_restaurant_app'
+    'https://github.com/Mdimranhossain05/React_restaurant_app',
+    'https://github.com/Mdimranhossain05/E-Commerce-App-In-Flutter-With-Firebase',
+    'https://github.com/Mdimranhossain05/News-App-UI-in-Flutter/tree/master'
 ]
 
 const portfolioContent = document.querySelector(".portfolio-content");
 portfolioImgs.map((val,index) => {
-    portfolioContent.innerHTML += `<div onclick="window.location.href='${portfolioLinks[index]}'" class="portfolioImg" style="--k:${0+index};};"><img src=${val} alt="" >
+    portfolioContent.innerHTML += `<div onclick="window.open('${portfolioLinks[index]}')" class="portfolioImg" style="--k:${0+index};};"><img src=${val} alt="" >
     <div class="portfolio-desc">
         <h5>${portfolioHeadings[index]}</h5>
         <p>${portfolioDetails[index]}</P>
