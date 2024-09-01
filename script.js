@@ -34,7 +34,7 @@ icon.onclick = () => {
     }
 }
 
-//skill section with dom
+//skill section with DOM
 const skilsArr = ["HTML", "CSS", "Bootsrap", "Tailwind CSS", "Javascript", "React", "Responsive Design", "Github", "Flutter"];
 const skillsIcons = ["<i class='bx bxl-html5'></i>", "<i class='bx bxl-css3' ></i>", "<i class='bx bxl-bootstrap' ></i>", "<i class='bx bxl-tailwind-css' ></i>", "<i class='bx bxl-javascript' ></i>", "<i class='bx bxl-react' ></i>", "<i class='bx bx-devices' ></i>", "<i class='bx bxl-github'></i>", "<i class='bx bxl-flutter'></i>"];
 const skillsColors = ["Tomato", "DodgerBlue", "SlateBlue", "rgb(15, 184, 240);", "rgb(228, 175, 0)", "rgb(15, 184, 240)" ,"Violet", "#6cc644", "rgb(15, 184, 240)"];
@@ -46,7 +46,7 @@ skilsArr.map((val, index) => {
     <p>${val}</p></div>`
 });
 
-//portfolio section with dom
+//portfolio section with DOM
 const portfolioImgs = ["./assets/portfolio1.png", "./assets/portfolio2.png", "./assets/portfolio3.png", "./assets/portfolio4.png", "./assets/portfolio5.png", "./assets/flutter1.png", "./assets/flutter2.png"];
 const portfolioHeadings = ["SEO Company Website", "Travel Company Website", "Education Meeting Website", "Food website", "Restaurant Website", "E-Commerce Android App using Flutter", "News Android App using Flutter"];
 const portfolioDetails = ["This is fully responsive SEO Company Website using HTML5, TailwindCSS and a little bit javascript",
@@ -76,7 +76,7 @@ portfolioImgs.map((val,index) => {
         </div>`
 });
 
-//intersection animatin
+//intersection animation
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting && entry.target.classList.contains('about-image-img')) {
