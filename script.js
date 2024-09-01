@@ -35,7 +35,7 @@ icon.onclick = () => {
 }
 
 //skill section with dom
-const skilsArr = ["HTML", "CSS", "Bootsrat", "Tailwind CSS", "Javascript", "React", "Responsive Design", "Github", "Flutter"];
+const skilsArr = ["HTML", "CSS", "Bootsrap", "Tailwind CSS", "Javascript", "React", "Responsive Design", "Github", "Flutter"];
 const skillsIcons = ["<i class='bx bxl-html5'></i>", "<i class='bx bxl-css3' ></i>", "<i class='bx bxl-bootstrap' ></i>", "<i class='bx bxl-tailwind-css' ></i>", "<i class='bx bxl-javascript' ></i>", "<i class='bx bxl-react' ></i>", "<i class='bx bx-devices' ></i>", "<i class='bx bxl-github'></i>", "<i class='bx bxl-flutter'></i>"];
 const skillsColors = ["Tomato", "DodgerBlue", "SlateBlue", "rgb(15, 184, 240);", "rgb(228, 175, 0)", "rgb(15, 184, 240)" ,"Violet", "#6cc644", "rgb(15, 184, 240)"];
 
