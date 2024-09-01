@@ -53,6 +53,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     min-height: 2000px;
+    overflow-x: hidden;
 }
 
 .header {
