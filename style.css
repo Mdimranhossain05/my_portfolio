@@ -849,7 +849,7 @@ body {
 
     .header {
         padding: 10px 8%;
-        width: 120vw;
+        width: 100vw;
     }
 
     .header.sticky {
