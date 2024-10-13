@@ -9,18 +9,7 @@
 }
 
 :root {
-    --bg-color : #1f242d;
-    --primary-color : #0ef;
-    --text-color : #fff;
-    --navbar-color: #1f242db2;
-    --shadow-color: rgb(0, 0, 0.05);
-    --dark-color : rgb(92, 87, 87);
-    --footer-color : #353535;
-    --filter : none;
-    --navbar-color2 : white;
-}
 
-.light {
     --bg-color : #ffffff;
     --primary-color : rgb(15, 184, 240);
     --text-color : black;
@@ -30,6 +19,18 @@
     --footer-color : rgb(43, 101, 121);
     --filter : invert(100%);
     --navbar-color2 : #c4c4c4c4;
+}
+
+.dark {
+    --bg-color : #1f242d;
+    --primary-color : #0ef;
+    --text-color : #fff;
+    --navbar-color: #1f242db2;
+    --shadow-color: rgb(0, 0, 0.05);
+    --dark-color : rgb(92, 87, 87);
+    --footer-color : #353535;
+    --filter : none;
+    --navbar-color2 : white;
 }
 
 .left {
