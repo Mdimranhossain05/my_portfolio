@@ -35,9 +35,9 @@ icon.onclick = () => {
 }
 
 //skill section with DOM
-const skilsArr = ["HTML", "CSS", "Bootsrap", "Tailwind CSS", "Javascript", "React", "nodeJS", "Express","Responsive Design", "Github", "Flutter"];
-const skillsIcons = ["<i class='bx bxl-html5'></i>", "<i class='bx bxl-css3' ></i>", "<i class='bx bxl-bootstrap' ></i>", "<i class='bx bxl-tailwind-css' ></i>", "<i class='bx bxl-javascript' ></i>", "<i class='bx bxl-react' ></i>", "<i class='bx bxl-nodejs'></i>" , "<i class='bx bx-leaf'></i>" ,"<i class='bx bx-devices' ></i>", "<i class='bx bxl-github'></i>", "<i class='bx bxl-flutter'></i>"];
-const skillsColors = ["Tomato", "DodgerBlue", "SlateBlue", "rgb(15, 184, 240);", "rgb(228, 175, 0)", "rgb(15, 184, 240)" ,"#6cc24a", "gray" ,"Violet", "#6cc644","rgb(15, 184, 240)"];
+const skilsArr = ["HTML", "CSS", "Bootsrap", "Tailwind CSS", "Javascript", "React", "nodeJS", "ExpressJS", "MongoDB","Responsive Design", "Github", "Flutter"];
+const skillsIcons = ["<i class='bx bxl-html5'></i>", "<i class='bx bxl-css3' ></i>", "<i class='bx bxl-bootstrap' ></i>", "<i class='bx bxl-tailwind-css' ></i>", "<i class='bx bxl-javascript' ></i>", "<i class='bx bxl-react' ></i>", "<i class='bx bxl-nodejs'></i>" , "<i class='bx bxl-edge'></i>", "<i class='bx bxl-mongodb' ></i>" ,"<i class='bx bx-devices' ></i>", "<i class='bx bxl-github'></i>", "<i class='bx bxl-flutter'></i>"];
+const skillsColors = ["Tomato", "DodgerBlue", "SlateBlue", "rgb(15, 184, 240);", "rgb(228, 175, 0)", "rgb(15, 184, 240)" ,"#6cc24a", "gray", "#3FA037" ,"Violet", "#6cc644","rgb(15, 184, 240)"];
 
 const skillsDiv = document.querySelector(".skillsContent");
 skilsArr.map((val, index) => {
@@ -47,14 +47,15 @@ skilsArr.map((val, index) => {
 });
 
 //portfolio section with DOM
-const portfolioImgs = ["./assets/portfolio1.png", "./assets/portfolio2.png", "./assets/portfolio3.png", "./assets/portfolio4.png", "./assets/portfolio5.png", "./assets/portfolio6.png", "./assets/flutter1.png", "./assets/flutter2.png"];
-const portfolioHeadings = ["SEO Company Website", "Travel Company Website", "Fruit Shop Website", "Food website", "Restaurant Website", "Link Monitoring App using nodeJS","E-Commerce Android App using Flutter", "News Android App using Flutter"];
+const portfolioImgs = ["./assets/portfolio1.png", "./assets/portfolio2.png", "./assets/portfolio3.png", "./assets/portfolio4.png", "./assets/portfolio5.png", "./assets/portfolio6.png", "./assets/portfolio7.png","./assets/flutter1.png", "./assets/flutter2.png"];
+const portfolioHeadings = ["SEO Company Website", "Travel Company Website", "Fruit Shop Website", "Food website", "Restaurant Website", "Link Monitoring App using nodeJS", "To-Do App using ExpressJs and MongoDB" ,"E-Commerce Android App using Flutter", "News Android App using Flutter"];
 const portfolioDetails = ["This is fully responsive SEO Company Website using HTML5, TailwindCSS and a little bit javascript",
     "Fully responsive travel website using HTML, CSS and Javascript",
     "Fruit Shop Website using ReactJS, TailwindCSS, Framer Motions & React Icons",
     "Fully responsive food website using HTML, CSS and Javascript",
     "This is a restaurant web app using reactJS and tailwindCSS. Its is fully responsive website.",
     "This app is to monitor any website if the website is up or down on basis of given response code using core nodeJS",
+    "This is a To-Do app using ExpressJS and MongoDB in which via CRUD operations we can handle our todos",
     "This is an ecommerce app using flutter and firebase database for android.",
     "This is a simple news app using flutter for android"
 ]
@@ -64,6 +65,7 @@ const portfolioLinks = ['https://mdimranhossain05.github.io/SEO-Company-Website/
     'https://mdimranhossain05.github.io/food_website/',
     'https://restaurant2323.netlify.app/',
     'https://github.com/Mdimranhossain05/URL-up-down-monitoring-app-using-nodeJS/',
+    'https://github.com/Mdimranhossain05/todo_app/tree/main',
     'https://github.com/Mdimranhossain05/E-Commerce-App-In-Flutter-With-Firebase',
     'https://github.com/Mdimranhossain05/News-App-UI-in-Flutter/tree/master'
 ]
